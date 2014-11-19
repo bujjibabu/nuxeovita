@@ -1,0 +1,600 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"), url(../fonts/K88pR3goAWT7BTt32Z01m1tXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"), url(../fonts/RjgO7rYTmqiVp7vzi-Q5UVtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* devanagari */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"), url(../fonts/ttwNtsRpgsxVmgGGmiUOEltXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC;
+}
+
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"), url(../fonts/LWCjsQkB6EMdfHrEVqA1KVtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"), url(../fonts/xozscpT2726on7jbcb_pAltXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"), url(../fonts/59ZRklaO5bWGqF5A9baEEVtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"), url(../fonts/u-WUoqrET9fUeobQW7jkRVtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"), url(../fonts/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Roboto Slab Thin"), local("RobotoSlab-Thin"), url(../fonts/MEz38VLIFL-t46JUtkIEgHcHpeTo4zNkUa02-F9r1VE.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Roboto Slab Thin"), local("RobotoSlab-Thin"), url(../fonts/MEz38VLIFL-t46JUtkIEgJHDipyzW3oxlM2ogtcJE3o.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Roboto Slab Thin"), local("RobotoSlab-Thin"), url(../fonts/MEz38VLIFL-t46JUtkIEgArQu7msDD1BXoJWeH_ykbQ.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Roboto Slab Thin"), local("RobotoSlab-Thin"), url(../fonts/MEz38VLIFL-t46JUtkIEgD_9YuvR6BbpvcNvv-P7CJ0.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Roboto Slab Thin"), local("RobotoSlab-Thin"), url(../fonts/MEz38VLIFL-t46JUtkIEgCGQb_MN5JCwpvZt9ko0I5U.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Roboto Slab Thin"), local("RobotoSlab-Thin"), url(../fonts/MEz38VLIFL-t46JUtkIEgLr6l97bd_cX8oZCLqDvOn0.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Roboto Slab Thin"), local("RobotoSlab-Thin"), url(../fonts/MEz38VLIFL-t46JUtkIEgGzZpt1Zv2lgqhgSPQ2HnUo.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Slab Light"), local("RobotoSlab-Light"), url(../fonts/dazS1PrQQuCxC3iOAJFEJRgVThLs8Y7ETJzDCYFCSLE.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Slab Light"), local("RobotoSlab-Light"), url(../fonts/dazS1PrQQuCxC3iOAJFEJZiMaisvaUVUsYyVzOmndek.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Slab Light"), local("RobotoSlab-Light"), url(../fonts/dazS1PrQQuCxC3iOAJFEJbBAWGjcah5Ky0jbCgIwDB8.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Slab Light"), local("RobotoSlab-Light"), url(../fonts/dazS1PrQQuCxC3iOAJFEJf14vlcfyPYlAcQy2UfDRm4.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Slab Light"), local("RobotoSlab-Light"), url(../fonts/dazS1PrQQuCxC3iOAJFEJafJul7RR1X4poJgi27uS4w.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Slab Light"), local("RobotoSlab-Light"), url(../fonts/dazS1PrQQuCxC3iOAJFEJavyPXdneeGd26m9EmFSSWg.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Slab Light"), local("RobotoSlab-Light"), url(../fonts/dazS1PrQQuCxC3iOAJFEJfmwc-ajpEmCNIKbLN2wWyU.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Slab Regular"), local("RobotoSlab-Regular"), url(../fonts/y7lebkjgREBJK96VQi37ZjTOQ_MqJVwkKsUn0wKzc2I.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Slab Regular"), local("RobotoSlab-Regular"), url(../fonts/y7lebkjgREBJK96VQi37ZjUj_cnvWIuuBMVgbX098Mw.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Slab Regular"), local("RobotoSlab-Regular"), url(../fonts/y7lebkjgREBJK96VQi37ZkbcKLIaa1LC45dFaAfauRA.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Slab Regular"), local("RobotoSlab-Regular"), url(../fonts/y7lebkjgREBJK96VQi37Zmo_sUJ8uO4YLWRInS22T3Y.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Slab Regular"), local("RobotoSlab-Regular"), url(../fonts/y7lebkjgREBJK96VQi37Zr6up8jxqWt8HVA3mDhkV_0.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Slab Regular"), local("RobotoSlab-Regular"), url(../fonts/y7lebkjgREBJK96VQi37ZiYE0-AqJ3nfInTTiDXDjU4.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Slab Regular"), local("RobotoSlab-Regular"), url(../fonts/y7lebkjgREBJK96VQi37ZuL2WfuF7Qc3ANwCvwl0TnA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Slab Bold"), local("RobotoSlab-Bold"), url(../fonts/dazS1PrQQuCxC3iOAJFEJZ6iIh_FvlUHQwED9Yt5Kbw.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Slab Bold"), local("RobotoSlab-Bold"), url(../fonts/dazS1PrQQuCxC3iOAJFEJS_vZmeiCMnoWNN9rHBYaTc.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Slab Bold"), local("RobotoSlab-Bold"), url(../fonts/dazS1PrQQuCxC3iOAJFEJSFaMxiho_5XQnyRZzQsrZs.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+
+/* greek */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Slab Bold"), local("RobotoSlab-Bold"), url(../fonts/dazS1PrQQuCxC3iOAJFEJQalQocB-__pDVGhF3uS2Ks.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Slab Bold"), local("RobotoSlab-Bold"), url(../fonts/dazS1PrQQuCxC3iOAJFEJWhQUTDJGru-0vvUpABgH8I.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Slab Bold"), local("RobotoSlab-Bold"), url(../fonts/dazS1PrQQuCxC3iOAJFEJejkDdvhIIFj_YMdgqpnSB0.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Slab Bold"), local("RobotoSlab-Bold"), url(../fonts/dazS1PrQQuCxC3iOAJFEJdGR1r2frwpfjEqI8Bb_XHU.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+@-webkit-keyframes animate-zoom {
+  /* line 2, ../../app/styles/_common.scss */
+  0% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+    opacity: 0;
+  }
+
+  /* line 7, ../../app/styles/_common.scss */
+  100% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+
+@keyframes animate-zoom {
+  /* line 14, ../../app/styles/_common.scss */
+  0% {
+    -webkit-transform: scale(0.5, 0.5);
+    transform: scale(0.5, 0.5);
+    opacity: 0;
+  }
+
+  /* line 19, ../../app/styles/_common.scss */
+  100% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_common\.scss}line{font-family:\0000326}}
+.dsui-loader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #efefef;
+  /*#00A3D9*/
+  color: white;
+  opacity: 1;
+  transition: opacity 1s ease, z-index 1s ease;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_common\.scss}line{font-family:\0000344}}
+.dsui-loader.dsui-loaded {
+  opacity: 0;
+  z-index: -1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_common\.scss}line{font-family:\0000348}}
+.dsui-loader .dsui-loader-icon {
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  font-size: 84px;
+  margin-left: -42px;
+  margin-top: -42px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_common\.scss}line{font-family:\0000358}}
+.dsui .dsui-next-btn {
+  color: white;
+  background: #87c846;
+  padding: 7px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_common\.scss}line{font-family:\0000363}}
+.dsui .dsui-next-prev {
+  color: white;
+  background: #00aed9;
+  padding: 7px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_common\.scss}line{font-family:\0000368}}
+.dsui .dsui-no-padding {
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_common\.scss}line{font-family:\0000371}}
+.dsui .dsui-no-right-padding {
+  padding-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_common\.scss}line{font-family:\0000374}}
+.dsui .dsui-no-left-padding {
+  padding-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_common\.scss}line{font-family:\0000377}}
+.dsui .dsui-pointer-cursor {
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_common\.scss}line{font-family:\0000380}}
+.dsui .dsui-text-underline {
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_common\.scss}line{font-family:\0000383}}
+.dsui .dsui-text-underline:hover {
+  text-decoration: underline;
+}
+
+/* Large desktop */
+/* Portrait tablet to landscape and desktop */
+/* Landscape phone to portrait tablet */
+/* Landscape phones and down */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_access\.scss}line{font-family:\000035}}
+.dsui .dsui-content .dsui-access-denied {
+  background: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_access\.scss}line{font-family:\000038}}
+.dsui .dsui-content .dsui-access-404 {
+  background: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_access\.scss}line{font-family:\0000310}}
+.dsui .dsui-content .dsui-access-404 h1 {
+  font-size: 3em;
+}
+
+/* Large desktop */
+/* Portrait tablet to landscape and desktop */
+/* Landscape phone to portrait tablet */
+/* Landscape phones and down */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_layout\.scss}line{font-family:\000031}}
+body, html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_layout\.scss}line{font-family:\000037}}
+body {
+  overflow-y: auto;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  background: #005693;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_layout\.scss}line{font-family:\0000316}}
+.dsui .dsui-content {
+  margin-top: 100px;
+  /*padding-bottom: 220px;*/
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_layout\.scss}line{font-family:\0000320}}
+.dsui .dsui-footer {
+  /*position: absolute;
+  bottom:0;
+  width:100%;*/
+}
+
+/* Large desktop */
+/* Portrait tablet to landscape and desktop */
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_layout\.scss}line{font-family:\0000352}}
+  .dsui {
+    /*position:static;*/
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_layout\.scss}line{font-family:\0000356}}
+  .dsui .dsui-content {
+    /*padding-bottom: 10px;*/
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_layout\.scss}line{font-family:\0000359}}
+  .dsui .dsui-footer {
+    /*position:static;
+    bottom:auto;
+    width:auto;*/
+  }
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_layout\.scss}line{font-family:\0000368}}
+  .dsui {
+    /*position:static;*/
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_layout\.scss}line{font-family:\0000372}}
+  .dsui .dsui-content {
+    /*padding-bottom: 10px;*/
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_layout\.scss}line{font-family:\0000375}}
+  .dsui .dsui-footer {
+    /*position:static;
+    bottom:auto;
+    width:auto;*/
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_header\.scss}line{font-family:\000033}}
+.dsui .dsui-header .dsui-nav-header {
+  background: #1d7dc1;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.6);
+  border-color: #196aa4;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_header\.scss}line{font-family:\000038}}
+.dsui .dsui-header ul li a, .dsui .dsui-header a {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_header\.scss}line{font-family:\0000311}}
+.dsui .dsui-header .dsui-navbar-brand {
+  font-size: 26px;
+}
+
+/* Large desktop */
+/* Portrait tablet to landscape and desktop */
+/* Landscape phone to portrait tablet */
+/* Landscape phones and down */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_welcome\.scss}line{font-family:\000035}}
+.dsui .dsui-content .dsui-welcome {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_welcome\.scss}line{font-family:\000038}}
+.dsui .dsui-content .dsui-welcome .dsui-welcome-label,
+.dsui .dsui-content .dsui-welcome .dsui-welcome-txt {
+  font-family: "Roboto Slab", serif;
+  font-size: 2.5em;
+  font-weight: 200;
+  line-height: 42px;
+}
+
+/* Large desktop */
+/* Portrait tablet to landscape and desktop */
+/* Landscape phone to portrait tablet */
+/* Landscape phones and down */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_form\.scss}line{font-family:\000035}}
+.dsui .dsui-content .dsui-form {
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_form\.scss}line{font-family:\000037}}
+.dsui .dsui-content .dsui-form .dsui-question {
+  font-family: "Roboto Slab", serif;
+  font-weight: 200;
+  line-height: 42px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_form\.scss}line{font-family:\0000312}}
+.dsui .dsui-content .dsui-form .dsui-sub-question {
+  color: yellow;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_form\.scss}line{font-family:\0000315}}
+.dsui .dsui-content .dsui-form .dsui-form-first-div {
+  font-size: 40px;
+  color: #00aed9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_form\.scss}line{font-family:\0000318}}
+.dsui .dsui-content .dsui-form .dsui-form-first-div select {
+  color: white;
+  background: #00aed9;
+  border: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_form\.scss}line{font-family:\0000326}}
+.dsui .dsui-content .dsui-form .dsui-form-second-div {
+  font-family: "Roboto Slab", serif;
+  font-size: 2.8em;
+  font-weight: 200;
+  line-height: 42px;
+}
+
+/* Large desktop */
+/* Portrait tablet to landscape and desktop */
+/* Landscape phone to portrait tablet */
+/* Landscape phones and down */
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/bujji\/work1\/vita\/scm\/git\/yo\/app\/styles\/_footer\.scss}line{font-family:\000036}}
+.dsui .dsui-footer {
+  bottom: 0px;
+  position: fixed;
+  background: #1d7dc1;
+  width: 100%;
+  color: white;
+  font-size: 0.85em;
+}
+
+/* Large desktop */
+/* Portrait tablet to landscape and desktop */
+/* Landscape phone to portrait tablet */
+/* Landscape phones and down */

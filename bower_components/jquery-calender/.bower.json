@@ -1,0 +1,33 @@
+{
+  "name": "jquery-calender",
+  "version": "1.1.1",
+  "main": [
+    "./dist/css/jquery.calendarPicker.css",
+    "./dist/js/jquery.calendarPicker.js",
+    "./dist/images/next.png",
+    "./dist/images/prev.png"
+  ],
+  "ignore": [
+    "**/.*",
+    "_config.yml",
+    "CNAME",
+    "composer.json",
+    "CONTRIBUTING.md",
+    "docs",
+    "js/tests"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.9.0"
+  },
+  "homepage": "http://bugsvoice.com/applications/bugsVoice/site/test/calendarPickerDemo.jsp",
+  "_release": "1.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.1.1",
+    "commit": "a365d8689c3f3cee7f1acf86b61270ecca8e106d"
+  },
+  "_source": "http://bugsvoice.com/applications/bugsVoice/site/test/calendarPickerDemo.jsp",
+  "_target": "1.1.1",
+  "_originalSource": "jquery-calender",
+  "_direct": true
+}

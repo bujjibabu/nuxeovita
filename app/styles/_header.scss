@@ -1,0 +1,64 @@
+.dsui{
+	.dsui-header{
+		.dsui-nav-header{
+			background: $blue-color;
+			box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.6);
+			border-color: $border-color;
+		}
+		ul li a, a{
+			color:$white-color;	
+		}
+		.dsui-navbar-brand{
+			font-size: 26px;
+		}
+	}
+	.dsui-content{
+	}
+	.dsui-footer{
+	}
+}
+/* Large desktop */
+@media (min-width: 1200px) {
+	.dsui{
+		.dsui-header{
+		}
+		.dsui-content{
+		}
+		.dsui-footer{
+		}
+	}
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1024px) {
+	.dsui{
+		.dsui-header{
+		}
+		.dsui-content{
+		}
+		.dsui-footer{
+		}
+	}
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.dsui{
+		.dsui-header{
+		}
+		.dsui-content{
+		}
+		.dsui-footer{
+		}
+	}
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.dsui{
+		.dsui-header{
+
+		}
+		.dsui-content{
+		}
+		.dsui-footer{
+		}
+	}
+}	

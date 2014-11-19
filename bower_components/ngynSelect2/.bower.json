@@ -1,0 +1,35 @@
+{
+  "name": "ngynSelect2",
+  "version": "1.1.1",
+  "main": [
+    "./dist/css/select2.css",
+    "./dist/js/select2.js",
+    "./dist/js/ngyn-select2.js",
+    "./dist/images/select2/select2-spinner.gif",
+    "./dist/images/select2/select2.png",
+    "./dist/images/select2/select2x2.png"
+  ],
+  "ignore": [
+    "**/.*",
+    "_config.yml",
+    "CNAME",
+    "composer.json",
+    "CONTRIBUTING.md",
+    "docs",
+    "js/tests"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.9.0"
+  },
+  "homepage": "https://github.com/configit/ngyn",
+  "_release": "1.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.1.1",
+    "commit": "a365d8689c3f3cee7f1acf86b61270ecca8e106d"
+  },
+  "_source": "https://github.com/configit/ngyn",
+  "_target": "1.1.1",
+  "_originalSource": "ngynSelect2",
+  "_direct": true
+}

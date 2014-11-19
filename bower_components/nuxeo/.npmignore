@@ -1,0 +1,4 @@
+syntax: glob
+
+bower.json
+lib/jquery
